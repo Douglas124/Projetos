@@ -1,0 +1,86 @@
+{
+  "projects": [
+    {
+      "id": "c765",
+      "name": "DOUGLAS NUNES DOS SANTOS",
+      "budget": "7000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 1234,
+      "services": [
+        {
+          "name": "DOUGLAS NUNES DOS SANTOS",
+          "cost": "1234",
+          "description": "preparar front end",
+          "id": "beb700ed-e31c-4f54-a9ae-e868d8abca1f"
+        }
+      ]
+    },
+    {
+      "id": "70cb",
+      "name": "Pedro",
+      "budget": "7000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 1354,
+      "services": [
+        {
+          "name": "DOUGLAS NUNES DOS SANTOS",
+          "cost": "1231",
+          "description": "preparar front end",
+          "id": "f8fd9a05-4f80-4c64-aacf-fda45ad7bdc6"
+        },
+        {
+          "name": "DOUGLAS NUN",
+          "cost": "123",
+          "description": "preparar front end",
+          "id": "ccfdd68a-408a-4c04-91e7-dd0eeb7019d7"
+        }
+      ]
+    },
+    {
+      "id": "aa56",
+      "name": "DOUGLAS ",
+      "budget": "598491",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "277a",
+      "name": "Projeto 3",
+      "budget": "1800",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}
