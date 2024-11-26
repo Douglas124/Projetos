@@ -1,0 +1,168 @@
+.main{
+  width: 100vw;
+  height: 100vh;
+  background: 	#8dffff;
+  /*organiza os conteudos dentro da div.Exemplo deixa tudo do lado um do outro*/
+  display: flex;
+  /*move pelo eixo x*/
+  justify-content: center;
+  /*move pelo eixo y*/
+  align-items: center;
+}
+
+.privado {
+  justify-content: center;
+  align-items: center;
+}
+
+.left_card{
+  width: 45vw;
+  background-color: #8dffff;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: none;
+}
+
+.img{
+  width: 10%;
+}
+
+.left_card > img{
+  width: 25vw;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 10px 40px #20eeee;
+
+}
+
+.form {
+  width: 20vw;
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.form2 {
+  width: 20vw;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.form > input{
+  width: 20vw;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.textfield{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px 0px;
+}
+
+.textfield > input{
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.card_login > h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 800;
+  margin: 0;
+  position: relative;
+  bottom: 50px;
+  
+}
+
+.textfield > label{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+  color: #00000056;
+}
+
+.btn_login{
+  width: 100%;
+  padding: 16px 0px;
+  position: relative;
+  right: 23px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: black;
+  background: white;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px white;
+}
+
+.card_login{
+  margin: 0;
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px;
+    background-color: #03fdfd;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #fffffffa;
+}
+
+.para {
+  color: red;
+}
+
+@media only screen and (max-width: 950px){
+  .card_login{
+      width: 85%;
+
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .main{
+      flex-direction: column;
+  }
+  .left_card{
+      width: 50%;
+      height: 25%;
+  }
+  .form{
+      width: 100%;
+      height: none;
+      
+  }
+  .img{
+      width: 50%;
+      height: 60%;
+  }
+  .form{
+      width: 90%;
+  }
+}

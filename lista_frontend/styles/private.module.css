@@ -1,0 +1,162 @@
+.body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left_card {
+    background-color: blue;
+    height:100vw;
+    position: sticky;
+
+}
+
+.Link > a {
+    color: red;
+}
+
+.right_card {
+    width: 100vw;
+    background-color:darkgrey;
+    
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    width: 90vw;
+    margin-left: 2vw;
+    position: relative;
+    top: 30vh;
+    border-radius: 15px;
+}
+.Lista {
+    position: relative;
+    top: 30vh;
+    left: 5vw;
+    width: 80vw;
+    border-radius: 20px;
+}
+
+.EList > li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    font-size:1cm;
+}
+
+.EList > li > button {
+    font-size: 20px;
+    margin-right: 2vw;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    margin:10px;
+    position: relative;
+    left: 30vw;
+}
+.EList > li > img {
+    position: relative;
+    right: 2vw;
+}
+
+.MList{
+    background-color: white;
+    border-radius: 5px;
+    font-size:0.8cm;
+    margin: 20px;
+    display: none;
+} 
+
+.titulo > button {
+    font-size: x-large;
+    margin-right: 2vw;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+}
+.titulo > h1 {
+    margin-left: 2vw;
+}
+
+.Evento {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.form {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: x-large;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.media {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.formMedia {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border-radius: 8px;
+    width: 20vw;
+    height: 30vh;
+    padding: 15px;
+}
+.formMedia > label{
+    padding: 5px;
+    font-size: 20px;
+}
+.formMedia > button{
+    padding: 5px;
+    margin: 5px;
+}
+
+.formMedia > input {
+    font-size: 15px;
+}
+
+.Lixo {
+    width: 6%;
+}
+
+.arrow{
+    width: 6%;
+}
